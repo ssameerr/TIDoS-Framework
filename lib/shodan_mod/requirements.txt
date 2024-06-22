@@ -1,5 +1,7 @@
 click
 click-plugins
 colorama
-requests>=2.2.1
+requests>=2.31.0
 XlsxWriter
+certifi>=2023.7.22 # not directly required, pinned by Snyk to avoid a vulnerability
+idna>=3.7 # not directly required, pinned by Snyk to avoid a vulnerability
